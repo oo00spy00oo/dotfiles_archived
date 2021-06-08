@@ -1,6 +1,8 @@
 [user]
 	name = Spy Kab
 	email = ooo000spy000ooo@gmail.com
+[core]
+  editor = vi
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -15,5 +17,7 @@
   browser = google-chrome
 [init]
   defaultBranch = main
+[merge]
+  tool = meld
 #[pull]
 #  rebase = true
